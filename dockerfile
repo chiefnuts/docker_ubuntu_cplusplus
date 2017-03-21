@@ -2,7 +2,7 @@ FROM ubuntu
 MAINTAINER ChiefN
 
 run apt-get update && \
-  apt-get -y install libboost-all-dev \
+  apt-get -y install libboost-all-dev && \
   apt-get -y upgrade
 
 # cleanup
