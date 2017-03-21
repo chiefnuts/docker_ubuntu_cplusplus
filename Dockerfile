@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM lsiobase/xenial
 MAINTAINER ChiefN
 
 run apt-get update && \
